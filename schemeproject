@@ -1,0 +1,20 @@
+#lang racket/base
+(define(palindrome? s)
+  (let((chars (string->list s)))
+    (equal? chars (reverse chars))))
+
+
+
+(define (re lis)
+  (if (null? lis)
+      '()
+      (append (re (cdr lis))
+              (list (car lis)))))
+
+(define series
+  (lambda (x)
+    (let lp((i 0))
+      (when (<= i x)
+        (format #t "i=a\n" i)
+        (lp (+ i (+ 1 i)))))))
+
