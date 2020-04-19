@@ -6,3 +6,7 @@ cache:
     - node_modules
 script:
   - echo Hello World
+deploy:
+  provider: heroku
+  api_key:
+    secure: "f5fe67ee-ef70-4871-8a54-6482938ac60e"
