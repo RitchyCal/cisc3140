@@ -11,5 +11,3 @@ deploy:
   api_key:
     secure: f5fe67ee-ef70-4871-8a54-6482938ac60e
   app: weather3140
-  on:
-    repo: richy163/cisc3140
