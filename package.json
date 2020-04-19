@@ -4,7 +4,7 @@
   "description": "for webapps class",
   "main": "temp.js",
   "scripts": {
-    "test": "node.temp.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

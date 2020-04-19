@@ -1,0 +1,11 @@
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res) => res.sendfile("temp.html"));
+app.get("/temp.js", (req, res) => res.sendfile("temp.js"));
+app.get("/temp.css", (req, res) => res.sendfile("temp.css"));
+
+app.listen(port, () =>
+  console.log(`Example app listening at http://localhost:${port}`)
+);
