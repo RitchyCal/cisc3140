@@ -1,0 +1,25 @@
+{
+  "name": "cisc3140",
+  "version": "1.0.0",
+  "description": "for webapps class",
+  "main": "temp.js",
+  "scripts": {
+    "test": "node.temp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richy163/cisc3140.git"
+  },
+  "keywords": [
+    "hi"
+  ],
+  "author": "ritchy calixte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richy163/cisc3140/issues"
+  },
+  "homepage": "https://github.com/richy163/cisc3140#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
