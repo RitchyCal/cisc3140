@@ -2,7 +2,7 @@
   "name": "cisc3140",
   "version": "1.0.0",
   "description": "for webapps class",
-  "main": "temp.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
