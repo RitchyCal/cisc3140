@@ -1,0 +1,15 @@
+/* TODO: Style the input field so that at minimum ... */
+/* 1. The input has only the bottom border
+ * 2. The font is a monospaced font
+ * (all other design decisions are up to you)
+ */
+body {
+  font-family: monospace;
+}
+
+#textinput {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+}
